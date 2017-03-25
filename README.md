@@ -4,7 +4,7 @@ Analyze discussion forum data with Hadoop and MapReduce
 
 Useful field names:
 --------------------
-final_project:
+**final_project:**
 
 "forum_node.tsv"
 "id"    "title" "tagnames"      "author_id"     "body"  "node_type"     "parent_id"     "abs_parent_id" "added_at"      "score" "state_string"  "last_edited_id"        "last_activity_by_id"   "last_activity_at"      "active_revision_id"    "extra" "extra_ref_id"  "extra_count"   "marked"
@@ -13,7 +13,7 @@ final_project:
 "user_ptr_id"   "reputation"    "gold"  "silver"        "bronze"
 
 
-Analyzing Reddit comments:
+**Analyzing Reddit comments:**
 
 - subreddit: The subreddit the comment was posted in
 - author: Username of the comment author
