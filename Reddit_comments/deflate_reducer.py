@@ -7,12 +7,12 @@ def reducer():
 	for line in sys.stdin:
 		date = line.strip();
 		if old_date and old_date!=date:
-			print("{}\t{}".format(old_date,mentions))
+			print("{0}\t{1}".format(old_date,mentions))
 			mentions = 0
 		old_date = date
 		mentions+=1
 	if old_date:
-		print("{}\t{}".format(old_date,mentions))
+		print("{0}\t{1}".format(old_date,mentions))
 
 if __name__ == "__main__":
 	reducer()
